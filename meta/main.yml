@@ -1,0 +1,21 @@
+galaxy_info:
+  role_name: 'replace_kernel-default-base_with_kernel-default'
+  author: 'Johannes Kastl'
+  description: 'Replace kernel-default-base with kernel-default (as the base kernel is missing many modules you might need)'
+  company: 'B1 Systems GmbH'
+
+  license: 'BSD-3-Clause'
+
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: SLES
+    versions:
+    - all
+  - name: opensuse
+    versions:
+    - all
+
+  galaxy_tags: []
+
+dependencies: []
