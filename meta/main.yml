@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'replace_kernel-default-base_with_kernel-default'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Replace kernel-default-base with kernel-default (as the base kernel is missing many modules you might need)'
   company: 'B1 Systems GmbH'
