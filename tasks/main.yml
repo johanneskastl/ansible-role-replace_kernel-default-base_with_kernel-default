@@ -10,5 +10,5 @@
   when:
     - 'ansible_os_family == "Suse"'
   notify:
-    - "Reboot"
-    - "Wait for the machine(s) to be ready again"
+    - 'Reboot'
+    - 'Wait for the machine(s) to be ready again'
