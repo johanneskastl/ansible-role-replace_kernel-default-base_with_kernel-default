@@ -2,7 +2,7 @@
 # replace_kernel-default-base_with_kernel-default/tasks/main.yml
 
 - name: 'Force installation of kernel-default instead of kernel-default-base'
-  zypper:
+  community.general.zypper:
     name:
       - '-kernel-default-base'
       - 'kernel-default'
